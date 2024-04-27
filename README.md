@@ -14,4 +14,5 @@
 
 
 ## İçerikler
-- Client - Server Comunication
+- #### [İstemci - Sunucu İletişimi](https://github.com/yasir723/istemci-sunucu-iletisimi)
+- #### [POST ile GET Arasındaki Fark](https://github.com/yasir723/post-get-fark)
