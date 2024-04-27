@@ -53,7 +53,9 @@ GET ve POST, web sayfalarında form verilerini sunucuya iletmek için kullanıla
         <img src="https://github.com/yasir723/post-get-fark/assets/111686779/ebe9d4d9-f4a5-4862-97f0-611d3262d919">
     </div>
     
-- ### Post İle Gönderilen Bilgiler 
+- ### Post İle Gönderilen Bilgiler
+    Post ile gönderilen bilgiler URL'de yer almazlar ki post işlemi daha güvenli bir veri gönderme yaklaşımıdır.
+  
     Örneğin, kullanıcı adı olarak 'giriş' ve şifre olarak '123' girerek bir veri gönderdiğimizde, bu bilgilerin ağ kısmında `POST` olarak görünecektir
     <div align="center">
         <img src="https://github.com/yasir723/post-get-fark/assets/111686779/748ed238-1d40-4e2c-8d33-10a37786e289">
