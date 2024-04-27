@@ -77,7 +77,7 @@ Zaman zaman, faydalı düşüncelerimiz olabilir ancak aynı zamanda zararlı ol
     
 
 
-## İçerikler
+## ~İçerikler~ Saldırılar
 - #### [İstemci - Sunucu İletişimi](https://github.com/yasir723/istemci-sunucu-iletisimi)
 - #### [POST ile GET Arasındaki Fark](https://github.com/yasir723/post-get-fark)
 - #### [Zıt Hedefler](https://github.com/yasir723/zit-hedefler)
