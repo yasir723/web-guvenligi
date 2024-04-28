@@ -101,6 +101,29 @@ Eğer daha sonra kullanıcı adı bilgisini öğrenmek için `örneğin: get use
 
 Bu arada, sunucuda birden fazla oturum, istemcide ise birden fazla çerez olabilir. `örneğin: key2 = value2` gibi.
     
+**Anlamamız gereken şey, çerezlerin aslında sunucu adında bir dosya olduğudur. Bu dosya, tarayıcıda saklanır ve içinde veri barındırır. Öte yandan, oturumlar rastgele bir ID adında bir dosyadır. Bu dosyaya, sunucuyu hacklemeden erişemeyiz.**
+
+İşte yukarıda anlatılanlara göre sunucu ilk talep (request) gönderildiğinde oturum dosyası (session file) oluşturur ve id'sini tarayıcıya gönderir çerezler dosyası (cookie file) olarak kaydedilir. peki onu gerçekten ilk talepte oluşturur mu görmek istersek:
+
+<div align = 'center' >
+  <img src='https://github.com/yasir723/web-guvenligi/assets/111686779/13a77b61-8abe-42e0-b7fc-1602114249bd' width=49% >
+  <img src='https://github.com/yasir723/web-guvenligi/assets/111686779/f05b9bc2-4500-447b-9301-cfa1b89be58e' width=49% >
+</div>
+
+1. İncele'ye tıklayın  2. Ağ sekmesine geçin  3. Siteye girin  4. Sitenin domenini seçin  5. Oluşturulan çerez dosyanın ID'si
+
+Peki biz tarayıcımızda gördüğümüz cookie id'yi gerçekten sunucuda aynı id'nin olup olmadığını kontrol etmek istersek bu kodu kullanarak sunucudaki tüm session'ları gösterir:
+
+```php
+<?php
+// This code list all sessions and value in server
+$files = scandir(session_save_path());
+foreach ($files as $file) {
+  echo  "<li>" . $file . ":==> " .  file_get_contents(session_save_path() . "\\" . $file) . "<li>";
+}
+?>
+```
+
 
 
 ## ~İçerikler~ Saldırılar
