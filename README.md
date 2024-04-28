@@ -170,7 +170,7 @@ Proje dosyasını indirebilir ve bu işlemleri üzerinde gerçekleştirebilirsin
     <tr>
       <td>1</td>
       <td>Hedef ile İlgili Bilgi Toplama</td>
-      <td><a href="#">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/hedef-ile-ilgili-bilgi-toplama">tıkla</a></td>
       <td><a href="#">tıkla</a></td>
     </tr>
   </table>
