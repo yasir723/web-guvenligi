@@ -168,7 +168,7 @@ Proje dosyasını indirebilir ve bu işlemleri üzerinde gerçekleştirebilirsin
       <th>Çözümü</th>
     </tr>
     <tr>
-      <td>1.</td>
+      <td>1</td>
       <td>Hedef ile İlgili Bilgi Toplama</td>
       <td><a href="#">tıkla</a></td>
       <td><a href="#">tıkla</a></td>
