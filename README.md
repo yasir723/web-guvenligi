@@ -72,6 +72,8 @@ Zaman zaman, faydalı düşüncelerimiz olabilir ancak aynı zamanda zararlı ol
 - Kullanılabilirlik (Usability): Bir web uygulaması tasarlarken, kullanımı mümkün olduğunca kolay hale getirmeye çalışırız. Ancak, basit bir sistem kurmak, genellikle daha fazla detay gerektirir. `Daha fazla detay, hacker'ların daha fazla fırsata sahip olmasını sağlayabilir`. Bu nedenle, hangi bilgilerin kullanıcılara, hangi bilgilerin ise hacker'lara görüneceğini iyi hesaplamamız gerekmektedir.
 
 
+# Cookies ile Sessions Arasındaki Fark
+
 
 
     
