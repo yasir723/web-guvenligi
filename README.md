@@ -123,8 +123,25 @@ foreach ($files as $file) {
 }
 ?>
 ```
+<div align = 'center' >
+  <img src='https://github.com/yasir723/web-guvenligi/assets/111686779/1afc0a2d-6d3d-40d5-8302-824f07160622' >
+</div>
 
+Böylece sunucuda Session File oluşturulduğunu gördük. Bu da demek oluyor ki, cookie ID ile session ID aynıdır. 
 
+Eğer yeni bir talep (request) gönderirsek, Yukarıda anlatıldığı gibi bu sunucuya bağlı tüm çerezleri gönderecektir ve aynı ID isimli dosya olacaktır.
+
+<div align = 'center' >
+  <img src='https://github.com/yasir723/web-guvenligi/assets/111686779/1cf63eb0-565b-4a3d-acd6-dc042ff3ae91' >
+</div>
+
+Bu durumda, çerez dosyası sunucuya gönderildi. Sunucu, bu ID'yi okur ve kendi kayıtlı oturum ID'lerinde bu ID'yi arar. Bulduğunda, 'set userName: admin' güncelleme talebini okur, gönderilen yeni bilgiyi kaydeder ve ardından 'işlem tamamlandı' mesajını döndürür. 
+
+Eğer listSession.php sayfasını yeniden açarsak, bu işlemi daha iyi görmüş oluruz.
+
+<div align = 'center' >
+  <img src='https://github.com/yasir723/web-guvenligi/assets/111686779/86c3266f-a9cf-42ab-9202-72a1b8308ae0' >
+</div>
 
 ## ~İçerikler~ Saldırılar
 - #### [İstemci - Sunucu İletişimi](https://github.com/yasir723/istemci-sunucu-iletisimi)
