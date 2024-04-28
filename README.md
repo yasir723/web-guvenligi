@@ -88,19 +88,18 @@ Cookies ve sessions, web uygulamalarında kullanılan iki farklı yöntemdir.
   - Veri saklama kapasitesi açısından sessions genellikle daha büyük veri miktarlarını saklayabilir.
  
 <div align="center">
-    <img src="https://github.com/yasir723/web-guvenligi/assets/111686779/70ed7829-9dc1-4c18-bbd3-0dc75d90348a">
+    <img src="https://github.com/yasir723/web-guvenligi/assets/111686779/b6cb25cd-4442-414e-9a80-0bbe7c9a4ddd">
 </div>
 
-Bir kişi `örneğin: Yasir` tarayıcı açtığında belirli bir servere `örneğin: http://host.com` talep `örneğin: request-1` göndermiş oluyor . Bu durumda eğer sunucuda sessions çalışıyorsa. sunucu, adı sess__RANDOM_ID ile başlayan bir session dosyası (Session File) oluşturacak `örneğin: dosyanın adı sess__708813902f8ca46` ardından sonucu gönderir (response back) ve aynı id isim olarak gönderir `örneğin: PHPSESSID = 708813902f8ca46`.
+Bir kişi `örneğin: Yasir` tarayıcı açtığında belirli bir sunucuya (servere) `örneğin: http://host.com` talep `örneğin: request-1` gönderir. Eğer sunucuda sessions mekanizması çalışıyorsa. Sunucu bu isteği aldığında adı sess__RANDOM_ID ile başlayan bir oturum dosyası (Session File) oluşturur `örneğin: dosyanın adı: sess__708813902f8ca46`. Sonrasında sunucu isteği işler ve aynı id dosyanın ismi olarak sonucuya geri gönderir (response back) `örneğin: dosyanın adı: PHPSESSID = 708813902f8ca46`. Yani önceden oluşturulan id `708813902f8ca46` kullanır.
 
-Tarayıcı bu session id'yi alır serverin aynı isimle cookies için yeni bir dosya (Cookie File) oluşturur `örneğin: host.com` ve aldığın session id'yi oraya kaydeder
+Gönderildikten sonra, tarayıcı bu oturum id'sini alır ve aynı isimle yeni bir çerez dosyası (Cookie File) oluşturur `örneğin: host.com` ve alınan oturum id'si (session id) `örneğin: 708813902f8ca46` bu dosyaya kaydeder.
 
-Aynı kişi username bilgisini 'Vasim'e güncellemek isterse `örneğin: set username: Vasim` yine yeni bir talep `örneğin: request-2` gönderir. Bu durumda otomatik olarak PHP, bu sunuca bağlı tüm cookie'leri okur. yani tarayıcıdaki kaydedilen tüm cokkie'lerde arar ve `örneğin host.com` sunucuna bağlı  `cookie bilgisi sunuca gönderilir`. Server belirli bir session id arayacak `örneğin: PHPSESSID = 708813902f8ca46` sunucu, kendisinde kaydedilen session id'lerde bu id'yi arayacak ve bulduğunda gönderilen bilgi `örneğin: set username: Vasim` okur, güncelleme işlemi ise gönderilen yeni bilgiyi kaydeder ve `işlem tamamlandı` mesajını döndürür
+Aynı kullanıcı, kullanıcı adı bilgisini 'yasir723' olarak güncellemek isterse, `örneğin: set username: yasir723` şeklinde bir talep `örneğin: request-2` gönderir. Bu talep, yeni bir istek olarak sunucuya iletilecektir. PHP, bu durumda otomatik olarak sunucuya bağlı tüm çerezleri (cookies) okur. Yani, tarayıcıda saklanan tüm çerezleri tarar ve `örneğin host.com` sunucusuna bağlı `cookie bilgisi gönderir`. Server belirli bir oturum id'yi (session id) `örneğin: PHPSESSID = 708813902f8ca46` arayacak. Sunucu, kendisinde kaydedilen session id'lerde bu id'yi arayıp bulduğunda gönderilen `örneğin: set username: yasir723` güncelleme talebini okur ve gönderilen yeni bilgiyi kaydeder ardından `işlem tamamlandı` mesajını döndürür.
 
-Peki sonra username bilgisini öğrenmek için `örneğin: get username` yeni bir talep `örneğin: request-3` gönderilirse. Bu durumda yine aynı işlem olacak, tarayıcıdaki bu sunuca bağlı cookie dosyasını bulur ve içerikleri sunuca gönderilir. PHP server gönderilen id isimli bir dosya arayacak. bulduğunda username bilgisini okur ve onu tarayıcıya gönderir.
+Eğer daha sonra kullanıcı adı bilgisini öğrenmek için `örneğin: get username` şeklinde yeni bir talep `örneğin: request-3` gönderilirse, aynı süreç tekrarlanır. Tarayıcı, ilgili sunucuya bağlı çerez dosyasını bulur ve içeriğini sunucuya gönderir. PHP server, gönderilen id isimli bir dosya arayacak. bulduğunda username bilgisini okur ve onu tarayıcıya gönderir.
 
-Bu arada serverde birden fazla session, client'te birden fazla cookkes olabilir `örneğin: key2 = value2`
-
+Bu arada, sunucuda birden fazla oturum, istemcide ise birden fazla çerez olabilir. `örneğin: key2 = value2` gibi.
     
 
 
