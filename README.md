@@ -143,6 +143,22 @@ Eğer listSession.php sayfasını yeniden açarsak, bu işlemi daha iyi görmü�
   <img src='https://github.com/yasir723/web-guvenligi/assets/111686779/86c3266f-a9cf-42ab-9202-72a1b8308ae0' >
 </div>
 
+<br></br>
+oturumda userName bilgisini kaydetmek için bu kodu kullanılır:
+```php
+while ($row= mysqli_fetch_assoc($result)) {
+    $loginInUser= $row["userName"];
+    $userToken= $row["userToken"];
+    $_SESSION["userName"] = $loginInUser;
+    break; // to be save
+}
+```
+
+Proje dosyasını indirebilir ve bu işlemleri üzerinde gerçekleştirebilirsiniz. Bunu yaptığınızda, ya login.php dosyasındaki PHP kodlarını yukarıdaki kodla güncellersiniz, ya da proje dosyasında bulunan loginSession.php sayfasını kullanabilirsiniz. İçeriği aynıdır, ancak kullanıcı adını oturumda saklar.
+
+Özet olarak, oturumlar (sessions) sunucuda saklanırken, çerezler (cookies) istemci tarafında saklanır. Eğer listSession.php dosyasını bir sunucuya dahil edebilirsek, bu sunucudaki tüm hesapları ele geçirebiliriz. Çünkü oturumlara erişme ve içerdikleri tüm bilgilere erişme yetkimiz olur.
+
+
 ## ~İçerikler~ Saldırılar
 - #### [İstemci - Sunucu İletişimi](https://github.com/yasir723/istemci-sunucu-iletisimi)
 - #### [POST ile GET Arasındaki Fark](https://github.com/yasir723/post-get-fark)
