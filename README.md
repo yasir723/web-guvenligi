@@ -24,7 +24,7 @@ Tarayıcılar (browsers), HTML kodunu anlar ve bizim görebileceğimiz bir şekl
 
 <div align="center">
     <h3></h3>
-    <img src="https://github.com/yasir723/istemci-sunucu-iletisimi/assets/111686779/6075801b-e647-4c6c-a62f-09a1ec5e48a7">
+    <img src="https://github.com/yasir723/web-guvenligi/assets/111686779/a10ea8cb-2d2e-46ab-a020-a0753f8c4104">
 </div>
 
 Kullanıcı, Firefox tarayıcısını kullanarak `http://host/index.php` adresindeki içeriği görmek ister. Bu nedenle istemci tarafından sunucuya bir `istek (request)` gönderilir. Bu istek, index.php sayfasının yerini belirten bir taleptir. Sunucu, bu talebi alır ve eğer aranan sayfa bir PHP dosyasıysa, işleme yapmak üzere `Apache` sunucusuna iletir. Sunucu, kendi harddiskinde (HDD) dosyayı arar ve bulunursa `PHP işlemi (Processing PHP)` gerçekleştirir. Eğer dosyada veritabanı bağlantısı varsa, sunucu veritabanına bağlanır ve gerekli verileri elde eder. Sonrasında, PHP işlemi sonucunda oluşturulan `HTML dosyası` kullanıcıya geri gönderilir. Genelde saldırıların çoğu Client tarafına yapılır.
@@ -35,7 +35,7 @@ Kullanıcı, Firefox tarayıcısını kullanarak `http://host/index.php` adresin
 GET ve POST, web sayfalarında form verilerini sunucuya iletmek için kullanılan iki farklı yöntemdir. GET ile gönderilen veriler URL'nin bir parçası olarak görünürken, `POST ile gönderilen veriler gizli kalır`. GET ile gönderilen verilerin güvenliği daha düşüktür çünkü URL'ye eklendikleri için kullanıcı adı, şifre gibi hassas bilgileri içermemelidirler. POST, verileri HTTP isteğinin gövdesinde gönderdiği için daha güvenlidir ve hassas bilgilerin gönderilmesi için tercih edilir. `GET ile gönderilen veri boyutu sınırlıdır`, POST ise daha büyük veri kümelerini göndermek için daha uygundur. `GET, veri almak için` kullanılırken, `POST, veri göndermek için` kullanılır.
 
 <div align="center">
-        <img src="https://github.com/yasir723/post-get-fark/assets/111686779/a92ad855-7111-41de-82cd-0db45876c043">
+        <img src="https://github.com/yasir723/web-guvenligi/assets/111686779/b64b13b1-d230-41e8-94f8-639287c0283e">
 </div>
 
 
@@ -50,7 +50,7 @@ GET ve POST, web sayfalarında form verilerini sunucuya iletmek için kullanıla
 
     Belirli bir siteye ilk girdiğimizde eğer ağ bilgilerine bakarsak `get` olarak gönderildiğini göreceğiz
     <div align="center" >
-        <img src="https://github.com/yasir723/post-get-fark/assets/111686779/ebe9d4d9-f4a5-4862-97f0-611d3262d919">
+        <img src="https://github.com/yasir723/web-guvenligi/assets/111686779/78e1311a-329f-4490-be9f-aa25fe2975f1">
     </div>
     
 - ### Post İle Gönderilen Bilgiler
@@ -58,7 +58,7 @@ GET ve POST, web sayfalarında form verilerini sunucuya iletmek için kullanıla
   
     Örneğin, kullanıcı adı olarak 'giriş' ve şifre olarak '123' girerek bir veri gönderdiğimizde, bu bilgilerin ağ kısmında `POST` olarak görünecektir
     <div align="center">
-        <img src="https://github.com/yasir723/post-get-fark/assets/111686779/748ed238-1d40-4e2c-8d33-10a37786e289">
+        <img src="https://github.com/yasir723/web-guvenligi/assets/111686779/4ecd3512-ad49-4ecd-b80f-b9aaa0e3e00e">
     </div>
     
    
