@@ -158,8 +158,23 @@ Proje dosyasını indirebilir ve bu işlemleri üzerinde gerçekleştirebilirsin
 
 Özet olarak, oturumlar (sessions) sunucuda saklanırken, çerezler (cookies) istemci tarafında saklanır. Eğer listSession.php dosyasını bir sunucuya dahil edebilirsek, `bu sunucudaki tüm hesapları ele geçirebiliriz`. Çünkü oturumlara erişme ve içerdikleri tüm bilgilere erişme yetkimiz olur.
 
+<div align='center'>
+  <h1>Saldırılar</h1>
+  <table border="1">
+    <tr>
+      <th>#</th>
+      <th>Saldırı Adı</th>
+      <th>Anlatımı</th>
+      <th>Çözümü</th>
+    </tr>
+    <tr>
+      <td>1.</td>
+      <td>Hedef ile İlgili Bilgi Toplama</td>
+      <td><a href="#">tıkla</a></td>
+      <td><a href="#">tıkla</a></td>
+    </tr>
+  </table>
+</div>
 
-## ~İçerikler~ Saldırılar
-- #### [İstemci - Sunucu İletişimi](https://github.com/yasir723/istemci-sunucu-iletisimi)
-- #### [POST ile GET Arasındaki Fark](https://github.com/yasir723/post-get-fark)
-- #### [Zıt Hedefler](https://github.com/yasir723/zit-hedefler)
+
+
