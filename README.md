@@ -60,17 +60,8 @@ GET ve POST, web sayfalarında form verilerini sunucuya iletmek için kullanıla
     <div align="center">
         <img src="https://github.com/yasir723/web-guvenligi/assets/111686779/4ecd3512-ad49-4ecd-b80f-b9aaa0e3e00e">
     </div>
+
     
-   
-
-# Zıt Hedefler (Opposing Goals)
-Zaman zaman, faydalı düşüncelerimiz olabilir ancak aynı zamanda zararlı olma potansiyeline sahip olabilirler. Mike Andrews'ın `How To Break Web Software` adlı kitabında bu durum çok açık bir şekilde ele alınmıştır.
-
-## Ortaya Konulan Temel Noktalar
-- Güvenilirlik (Reliability): Sorunları çözmek veya hataları düzeltmek için yazılan kod satırları zaman zaman fazla karmaşık hale gelebilir. Bu durumda, bir testçinin sistemin tüm kodları test etmeye zamanı olmayabilir. Bu durum, hacker'lar için bir fırsat olabilir. Sistemlere veri göndererek, `sistemlerden hata mesajları alarak, hacker'lar sistemdeki hataları keşfedebilirler`. Bu durum, hacker'ların sistem hakkında daha fazla bilgi edinmelerine ve potansiyel olarak ciddi zararlara yol açmalarına neden olabilir.
-- Performans: Genellikle bir web uygulaması veya başka herhangi bir uygulama geliştirdiğimizde onun çok hızlı olmasına çablıyoruz, Bir web sitesini hızlandıran en temel unsur, kodların sunucu tarafında çalışacak şekilde yazılması değil, istemci tarafında yazılmasıdır. `Bu kullanıcıya ne kadar bir avantaj sağlarsa, bir hacker'a o kadar avantaj sağlayabilir`. Çünkü JavaScript gibi istemci tarafı kodları, hacker'lar tarafından görülebilir. Kodlarımızı istemci tarafında yazdığımızda, hacker'ların sistemimiz hakkında bilgi edinmelerine yardımcı oluyoruz. Bu yüzden istemci tarafında yazacağımız her kodu bir hacker tarafından nasıl değerlendirebileceğini iyi hesaplamamız lazım ve ona göre önlemler almamız gerek.
-- Kullanılabilirlik (Usability): Bir web uygulaması tasarlarken, kullanımı mümkün olduğunca kolay hale getirmeye çalışırız. Ancak, basit bir sistem kurmak, genellikle daha fazla detay gerektirir. `Daha fazla detay, hacker'ların daha fazla fırsata sahip olmasını sağlayabilir`. Bu nedenle, hangi bilgilerin kullanıcılara, hangi bilgilerin ise hacker'lara görüneceğini iyi hesaplamamız gerekmektedir.
-
 
 # Cookies ile Sessions Arasındaki Fark
 Cookies ve sessions, web uygulamalarında kullanılan iki farklı yöntemdir.
@@ -157,6 +148,16 @@ while ($row= mysqli_fetch_assoc($result)) {
 Proje dosyasını indirebilir ve bu işlemleri üzerinde gerçekleştirebilirsiniz. Bunu yaptığınızda, ya login.php dosyasındaki PHP kodlarını yukarıdaki kodla güncellersiniz, ya da proje dosyasında bulunan loginSession.php sayfasını kullanabilirsiniz. İçeriği aynıdır, ancak kullanıcı adını oturumda saklar.
 
 Özet olarak, oturumlar (sessions) sunucuda saklanırken, çerezler (cookies) istemci tarafında saklanır. Eğer listSession.php dosyasını bir sunucuya dahil edebilirsek, `bu sunucudaki tüm hesapları ele geçirebiliriz`. Çünkü oturumlara erişme ve içerdikleri tüm bilgilere erişme yetkimiz olur.
+
+# Zıt Hedefler (Opposing Goals)
+Zaman zaman, faydalı düşüncelerimiz olabilir ancak aynı zamanda zararlı olma potansiyeline sahip olabilirler. Mike Andrews'ın `How To Break Web Software` adlı kitabında bu durum çok açık bir şekilde ele alınmıştır.
+
+## Ortaya Konulan Temel Noktalar
+- Güvenilirlik (Reliability): Sorunları çözmek veya hataları düzeltmek için yazılan kod satırları zaman zaman fazla karmaşık hale gelebilir. Bu durumda, bir testçinin sistemin tüm kodları test etmeye zamanı olmayabilir. Bu durum, hacker'lar için bir fırsat olabilir. Sistemlere veri göndererek, `sistemlerden hata mesajları alarak, hacker'lar sistemdeki hataları keşfedebilirler`. Bu durum, hacker'ların sistem hakkında daha fazla bilgi edinmelerine ve potansiyel olarak ciddi zararlara yol açmalarına neden olabilir.
+- Performans: Genellikle bir web uygulaması veya başka herhangi bir uygulama geliştirdiğimizde onun çok hızlı olmasına çablıyoruz, Bir web sitesini hızlandıran en temel unsur, kodların sunucu tarafında çalışacak şekilde yazılması değil, istemci tarafında yazılmasıdır. `Bu kullanıcıya ne kadar bir avantaj sağlarsa, bir hacker'a o kadar avantaj sağlayabilir`. Çünkü JavaScript gibi istemci tarafı kodları, hacker'lar tarafından görülebilir. Kodlarımızı istemci tarafında yazdığımızda, hacker'ların sistemimiz hakkında bilgi edinmelerine yardımcı oluyoruz. Bu yüzden istemci tarafında yazacağımız her kodu bir hacker tarafından nasıl değerlendirebileceğini iyi hesaplamamız lazım ve ona göre önlemler almamız gerek.
+- Kullanılabilirlik (Usability): Bir web uygulaması tasarlarken, kullanımı mümkün olduğunca kolay hale getirmeye çalışırız. Ancak, basit bir sistem kurmak, genellikle daha fazla detay gerektirir. `Daha fazla detay, hacker'ların daha fazla fırsata sahip olmasını sağlayabilir`. Bu nedenle, hangi bilgilerin kullanıcılara, hangi bilgilerin ise hacker'lara görüneceğini iyi hesaplamamız gerekmektedir.
+
+
 
 <div align='center'>
   <h1>Saldırılar</h1>
