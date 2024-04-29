@@ -166,12 +166,14 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
       <th>Saldırı Adı</th>
       <th>Anlatımı</th>
       <th>Çözümü</th>
+      <th>Açıklama</th>
     </tr>
     <tr>
       <td>1</td>
       <td>Hedef ile İlgili Bilgi Toplama</td>
       <td><a href="https://github.com/yasir723/hedef-ile-ilgili-bilgi-toplama">tıkla</a></td>
       <td><a href="https://github.com/yasir723/hedef-ile-ilgili-bilgi-toplama-cozumu">tıkla</a></td>
+      <td>Sistemi geliştiren tarafından yazılan yorumları keşfederek sistem hakkında bilgi edinme.</td>
     </tr>
   </table>
 </div>
