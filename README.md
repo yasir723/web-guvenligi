@@ -171,7 +171,7 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
       <td>1</td>
       <td>Hedef ile İlgili Bilgi Toplama</td>
       <td><a href="https://github.com/yasir723/hedef-ile-ilgili-bilgi-toplama">tıkla</a></td>
-      <td><a href="#">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/hedef-ile-ilgili-bilgi-toplama-cozumu">tıkla</a></td>
     </tr>
   </table>
 </div>
