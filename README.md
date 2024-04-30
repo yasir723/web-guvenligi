@@ -178,7 +178,7 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
     <tr>
       <td>2</td>
       <td>Giriş Kontrolü ve Doğrulamanın Atlatılması</td>
-      <td><a href="https://github.com/yasir723/hedef-ile-ilgili-bilgi-toplama">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/giris-dogrulamanin-atlatilmasi-ve-kisitlamalarin-asilmasi">tıkla</a></td>
       <td><a href="https://github.com/yasir723/hedef-ile-ilgili-bilgi-toplama-cozumu">tıkla</a></td>
       <td>Veritabanı doldurmak</td>
     </tr>
