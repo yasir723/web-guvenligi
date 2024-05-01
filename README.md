@@ -35,7 +35,7 @@ Kullanıcı, Firefox tarayıcısını kullanarak `http://host/index.php` adresin
 GET ve POST, web sayfalarında form verilerini sunucuya iletmek için kullanılan iki farklı yöntemdir. GET ile gönderilen veriler URL'nin bir parçası olarak görünürken, `POST ile gönderilen veriler gizli kalır`. GET ile gönderilen verilerin güvenliği daha düşüktür çünkü URL'ye eklendikleri için kullanıcı adı, şifre gibi hassas bilgileri içermemelidirler. POST, verileri HTTP isteğinin gövdesinde gönderdiği için daha güvenlidir ve hassas bilgilerin gönderilmesi için tercih edilir. `GET ile gönderilen veri boyutu sınırlıdır`, POST ise daha büyük veri kümelerini göndermek için daha uygundur. `GET, veri almak için` kullanılırken, `POST, veri göndermek için` kullanılır.
 
 <div align="center">
-        <img src="https://github.com/yasir723/web-guvenligi/assets/111686779/b64b13b1-d230-41e8-94f8-639287c0283e">
+        <img src="https://github.com/yasir723/web-guvenligi/assets/111686779/54684a45-13d0-4324-9e37-5b6d5d94b128">
 </div>
 
 
