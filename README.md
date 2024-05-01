@@ -79,7 +79,7 @@ Cookies ve sessions, web uygulamalarında kullanılan iki farklı yöntemdir.
   - Veri saklama kapasitesi açısından sessions genellikle daha büyük veri miktarlarını saklayabilir.
  
 <div align="center">
-    <img src="https://github.com/yasir723/web-guvenligi/assets/111686779/b6cb25cd-4442-414e-9a80-0bbe7c9a4ddd">
+    <img src="https://github.com/yasir723/web-guvenligi/assets/111686779/3af9158d-0a22-44f5-928f-a0aee4899124">
 </div>
 
 Bir kişi `örneğin: Yasir` tarayıcı açtığında belirli bir sunucuya (servere) `örneğin: http://host.com` talep `örneğin: request-1` gönderir. Eğer sunucuda sessions mekanizması çalışıyorsa. Sunucu bu isteği aldığında adı sess__RANDOM_ID ile başlayan bir oturum dosyası (Session File) oluşturur `örneğin: dosyanın adı: sess__708813902f8ca46`. Sonrasında sunucu isteği işler ve aynı id dosyanın ismi olarak sonucuya geri gönderir (response back) `örneğin: dosyanın adı: PHPSESSID = 708813902f8ca46`. Yani önceden oluşturulan id `708813902f8ca46` kullanır.
