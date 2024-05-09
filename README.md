@@ -163,7 +163,7 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
   <table border="1">
     <tr>
       <th>#</th>
-      <th>Saldırı Adı</th>
+      <th>Saldırı Adı</th> 
       <th>Anlatımı</th>
       <th>Çözümü</th>
       <th>Açıklama</th>
