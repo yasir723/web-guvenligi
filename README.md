@@ -180,7 +180,7 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
       <td>Giriş Kontrolü ve Doğrulamanın Atlatılması</td>
       <td><a href="https://github.com/yasir723/giris-dogrulamanin-atlatilmasi-ve-kisitlamalarin-asilmasi">tıkla</a></td>
       <td><a href="https://github.com/yasir723/giris-dogrulamanin-atlatilmasi-ve-kisitlamalarin-asilmasi-cozumu">tıkla</a></td>
-      <td>Veritabanı doldurmak</td>
+      <td>Geliştiricinin koyduğu kısıtlamaları aşarak veritabanına boş veya gereksiz bilgi gönderilir, bu da sunucunun meşgul olmasına ve sistem erişiminin yavaşlamasına hatta çökmesine neden olabilir.</td>
     </tr>
   </table>
 </div>
