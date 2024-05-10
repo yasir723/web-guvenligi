@@ -171,15 +171,15 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
     <tr>
       <td>1</td>
       <td>Hedef ile İlgili Bilgi Toplama</td>
-      <td><a href="https://github.com/yasir723/hedef-ile-ilgili-bilgi-toplama">tıkla</a></td>
-      <td><a href="https://github.com/yasir723/hedef-ile-ilgili-bilgi-toplama-cozumu">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/gathering-Information-on-the-target">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/solution-of-gathering-Information-on-the-target">tıkla</a></td>
       <td>Sistemi geliştiren tarafından yazılan yorumları keşfederek sistem hakkında bilgi edinme.</td>
     </tr>
     <tr>
       <td>2</td>
       <td>Bypass Restriction and validation of input</td>
       <td><a href="https://github.com/yasir723/bypass-restriction-and-validation-of-input">tıkla</a></td>
-      <td><a href="https://github.com/yasir723/bypass-restriction-and-validation-of-input-cozumu">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/solution-of-bypass-restriction-and-validation-of-input">tıkla</a></td>
       <td>Geliştiricinin koyduğu kısıtlamaları aşarak veritabanına boş veya gereksiz bilgi gönderilir, bu da sunucunun meşgul olmasına ve sistem erişiminin yavaşlamasına hatta çökmesine neden olabilir.</td>
     </tr>
   </table>
