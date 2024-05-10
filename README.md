@@ -187,7 +187,7 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
       <td>Query string attack</td>
       <td><a href="https://github.com/yasir723/query-string-attack">tıkla</a></td>
       <td><a href="https://github.com/yasir723/solution-of-query-string-attack">tıkla</a></td>
-      <td>Geliştiricinin koyduğu kısıtlamaları aşarak veritabanına boş veya gereksiz bilgi gönderilir, bu da sunucunun meşgul olmasına ve sistem erişiminin yavaşlamasına hatta çökmesine neden olabilir.</td>
+      <td>URL'deki parametreleri değiştirerek veya zararlı kod ekleyerek web uygulamasının normal işleyişini bozmaya çalışırlar. Örneğin, bir kullanıcı oturumunu çalmak veya veritabanına erişmek için bu yöntemi kullanabilirler.</td>
     </tr>
   </table>
 </div>
