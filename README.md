@@ -170,7 +170,7 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
     </tr>
     <tr>
       <td>1</td>
-      <td>Hedef ile İlgili Bilgi Toplama</td>
+      <td>Gathering Information on the Target</td>
       <td><a href="https://github.com/yasir723/gathering-Information-on-the-target">tıkla</a></td>
       <td><a href="https://github.com/yasir723/solution-of-gathering-Information-on-the-target">tıkla</a></td>
       <td>Sistemi geliştiren tarafından yazılan yorumları keşfederek sistem hakkında bilgi edinme.</td>
