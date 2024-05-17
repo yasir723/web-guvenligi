@@ -215,7 +215,21 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
       <td>CSRF Attack</td>
       <td><a href="https://github.com/yasir723/csrf-attack">tıkla</a></td>
       <td><a href="https://github.com/yasir723/solution-of-csrf-attack">tıkla</a></td>
-      <td>Bir siteden formu alarak üzeirnde değişiklik yapıp local olarak çalıştırarak yetki verilmemiş işlemleri gerçekleştirmeyi sağlayan bir saldırı türüdür..</td>
+      <td>Bir siteden formu alarak üzeirnde değişiklik yapıp local olarak çalıştırarak yetki verilmemiş işlemleri gerçekleştirmeyi sağlayan bir saldırı türüdür.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>XSS Attack</td>
+      <td><a href="https://github.com/yasir723/xss-attack">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/solution-of-xss-attack">tıkla</a></td>
+      <td>Bir sitenin bağlantısına JavaScript kodu ekleyerek, hedef alınan kullanıcının bu sitedeki PHPSESSID dosyasını çalarak kullanıcının biglilerini ele geçirmek. Saldırıyı veritabanında kaydederek siteye kayıt olan tüm kullanıcıların bilgilerini ele geçirmek için kullanılan bir saldırı türüdür.        </td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Session Hijacking Attack</td>
+      <td><a href="https://github.com/yasir723/session-hijacking-attack">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/solution-of-session-hijacking-attack">tıkla</a></td>
+      <td>XSS saldırısını kullanarak PHPSESSID dosyasını çaldıktan sonra kullanıcıların kimliğini çalışmak için kullanılan bir saldırı türüdür.</td>
     </tr>
   </table>
 </div>
