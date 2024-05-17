@@ -196,6 +196,20 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
       <td><a href="https://github.com/yasir723/solution-of-cookies-attack">tıkla</a></td>
       <td>Query kullanarak göndermek yerine cookies kullanarak gönderilebilir. cookies kullanarak gönderilen parametreleri ve sitenin oluşturduğu PHPSESID dosyasını ele geçirmek için kullanılır.</td>
     </tr>
+    <tr>
+      <td>5</td>
+      <td>Hidden Field Attack</td>
+      <td><a href="https://github.com/yasir723/hidden-field-attack">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/solution-of-hidden-field-attack">tıkla</a></td>
+      <td>HTML kodundaki hidden itemleri kullanarak geliştiricinin sakladığı sanılan bilgilere ulaşmak.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>URL Jumping Attack</td>
+      <td><a href="https://github.com/yasir723/url-jumping-attack">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/solution-of-url-jumping-attack">tıkla</a></td>
+      <td>Bir web sitesinin tüm sayfalarını gözlemleyerek, erişim kontrolü yapılmadığı veya zafiyetler bulunduğunda bu zafiyetleri kullanarak yetki verilmemiş işlemleri gerçekleştirmeyi sağlayan bir saldırı türüdür.</td>
+    </tr>
   </table>
 </div>
 
