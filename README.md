@@ -182,12 +182,19 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
       <td><a href="https://github.com/yasir723/solution-of-bypass-restriction-and-validation-of-input">tıkla</a></td>
       <td>Geliştiricinin koyduğu kısıtlamaları aşarak veritabanına boş veya gereksiz bilgi gönderilir, bu da sunucunun meşgul olmasına ve sistem erişiminin yavaşlamasına hatta çökmesine neden olabilir.</td>
     </tr>
-     <tr>
+    <tr>
       <td>3</td>
       <td>Query string attack</td>
       <td><a href="https://github.com/yasir723/query-string-attack">tıkla</a></td>
       <td><a href="https://github.com/yasir723/solution-of-query-string-attack">tıkla</a></td>
       <td>URL'deki parametreleri değiştirerek veya zararlı kod ekleyerek web uygulamasının normal işleyişini bozmaya çalışırlar. Örneğin, bir kullanıcı oturumunu çalmak veya veritabanına erişmek için bu yöntemi kullanabilirler.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Cookies Attack</td>
+      <td><a href="https://github.com/yasir723/cookies-attack">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/solution-of-cookies attack">tıkla</a></td>
+      <td>Query kullanarak göndermek yerine cookies kullanarak gönderilebilir. cookies kullanarak gönderilen parametreleri ve sitenin oluşturduğu PHPSESID dosyasını ele geçirmek için kullanılır.</td>
     </tr>
   </table>
 </div>
