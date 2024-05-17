@@ -243,7 +243,7 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
       <td>Directory Traversal Attack</td>
       <td><a href="https://github.com/yasir723/directory-traversal-attack">tıkla</a></td>
       <td><a href="https://github.com/yasir723/solution-of-directory-traversal-attack">tıkla</a></td>
-      <td>.</td>
+      <td>Bir web sitesinin dosya sistemi içinde gezinerek ve erişme yetkimizin olmadığı alanlara erişerek, genellikle yayınlanmamış veya gizli bilgilere erişmeyi sağlayan bir saldırı türüdür.</td>
     </tr>
   </table>
 </div>
