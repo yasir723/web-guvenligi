@@ -193,7 +193,7 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
       <td>4</td>
       <td>Cookies Attack</td>
       <td><a href="https://github.com/yasir723/cookies-attack">tıkla</a></td>
-      <td><a href="https://github.com/yasir723/solution-of-cookies attack">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/solution-of-cookies-attack">tıkla</a></td>
       <td>Query kullanarak göndermek yerine cookies kullanarak gönderilebilir. cookies kullanarak gönderilen parametreleri ve sitenin oluşturduğu PHPSESID dosyasını ele geçirmek için kullanılır.</td>
     </tr>
   </table>
