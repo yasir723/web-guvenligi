@@ -231,6 +231,20 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
       <td><a href="https://github.com/yasir723/solution-of-session-hijacking-attack">tıkla</a></td>
       <td>XSS saldırısını kullanarak PHPSESSID dosyasını çaldıktan sonra kullanıcıların kimliğini çalışmak için kullanılan bir saldırı türüdür.</td>
     </tr>
+    <tr>
+      <td>10</td>
+      <td>SQL Injection Attack</td>
+      <td><a href="https://github.com/yasir723/sql-injection-attack">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/solution-of-sql-injection-attack">tıkla</a></td>
+      <td>Web formlarına veya URL parametrelerine SQL kodları enjekte ederek veritabanıyla etkileşim kurarak bilgi çalma, veri değiştirme veya hatta veritabanını tamamen kontrol etme gibi tehlikeli eylemler yapmaya sağlayan bir saldırır türüdür.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Directory Traversal Attack</td>
+      <td><a href="https://github.com/yasir723/directory-traversal-attack">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/solution-of-directory-traversal-attack">tıkla</a></td>
+      <td>.</td>
+    </tr>
   </table>
 </div>
 
