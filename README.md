@@ -210,6 +210,13 @@ Bazen düşüncelerimiz faydalı olabilirken, aynı zamanda potansiyel bir zarar
       <td><a href="https://github.com/yasir723/solution-of-url-jumping-attack">tıkla</a></td>
       <td>Bir web sitesinin tüm sayfalarını gözlemleyerek, erişim kontrolü yapılmadığı veya zafiyetler bulunduğunda bu zafiyetleri kullanarak yetki verilmemiş işlemleri gerçekleştirmeyi sağlayan bir saldırı türüdür.</td>
     </tr>
+    <tr>
+      <td>7</td>
+      <td>CSRF Attack</td>
+      <td><a href="https://github.com/yasir723/csrf-attack">tıkla</a></td>
+      <td><a href="https://github.com/yasir723/solution-of-csrf-attack">tıkla</a></td>
+      <td>Bir siteden formu alarak üzeirnde değişiklik yapıp local olarak çalıştırarak yetki verilmemiş işlemleri gerçekleştirmeyi sağlayan bir saldırı türüdür..</td>
+    </tr>
   </table>
 </div>
 
